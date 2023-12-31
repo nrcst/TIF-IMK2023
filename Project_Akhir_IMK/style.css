@@ -75,10 +75,12 @@ body{
 
 .about-us .image-head{
     position: relative;
+    overflow: hidden;
 }
 
 .about-us .image-head img{
     width: 100%;
+    transition: transform .3s;
 }
 
 .about-us .image-head:hover img{
